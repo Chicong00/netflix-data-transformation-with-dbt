@@ -179,3 +179,18 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# credentials
+credentials/
+
+# SnowSQL config (contains passwords)
+.snowsql/
+
+# dbt artifacts
+target/
+dbt_packages/
+dbt_modules/
+logs/
+
+# dataset
+dataset/
