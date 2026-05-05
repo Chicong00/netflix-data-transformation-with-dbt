@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: netflix_raw
+  - name: netflix
     database: MOVIELENS
     schema: RAW
     tables:
