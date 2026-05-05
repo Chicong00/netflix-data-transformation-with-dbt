@@ -1,5 +1,5 @@
 WITH raw_links AS (
-    SELECT * FROM MOVIELENS.RAW.RAW_LINKS
+    SELECT * FROM {{ source('netflix_raw', 'r_links') }}
 )
 SELECT
     movieId AS movie_id,

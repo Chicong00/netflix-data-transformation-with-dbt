@@ -1,5 +1,5 @@
 WITH raw_tags AS (
-    SELECT * FROM MOVIELENS.RAW.RAW_TAGS
+    SELECT * FROM {{ source('netflix_raw', 'r_tags') }}
 )
 SELECT
     userId AS user_id,

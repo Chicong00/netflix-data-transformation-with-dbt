@@ -194,3 +194,6 @@ logs/
 
 # dataset
 dataset/
+
+# VS Code
+.vscode/

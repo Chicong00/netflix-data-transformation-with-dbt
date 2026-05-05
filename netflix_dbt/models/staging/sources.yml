@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: netflix_raw
+    database: MOVIELENS
+    schema: RAW
+    tables:
+      - name: r_movies
+        identifier: raw_movies
+        description: "Raw movies data from MovieLens dataset."
+      - name: r_ratings
+        identifier: raw_ratings
+        description: "Raw ratings data from MovieLens dataset."
+      - name: r_tags
+        identifier: raw_tags
+        description: "Raw tags data from MovieLens dataset." 
+      - name: r_genome_tags
+        identifier: raw_genome_tags
+        description: "Raw genome tags data from MovieLens dataset."
+      - name: r_genome_scores
+        identifier: raw_genome_scores
+        description: "Raw genome scores data from MovieLens dataset."
+      - name: r_links
+        identifier: raw_links
+        description: "Raw links data mapping movies to IMDb and TMDb IDs."
