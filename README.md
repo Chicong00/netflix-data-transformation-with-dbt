@@ -1,4 +1,4 @@
-# Netflix Data Analysis with dbt
+# Netflix Data Transformation with dbt
 
 An end-to-end data pipeline for analyzing the [MovieLens dataset](https://grouplens.org/datasets/movielens/) using dbt and Snowflake. Raw CSV data is ingested from S3 into Snowflake, then transformed through a layered dbt project into dimensional models ready for analysis.
 
